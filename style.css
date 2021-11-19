@@ -1,3 +1,11 @@
 html {
     background-color:aqua;
 }
+
+
+.blob {
+    width: 100px;
+    height: 100px;
+    border-radius: 46% 54% 64% 36% / 61% 44% 56% 39%;
+    background: #4070F4;
+  }
