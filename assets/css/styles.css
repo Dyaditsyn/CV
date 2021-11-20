@@ -169,7 +169,7 @@ img{
 }
  .nav__toggle{
     color: var(--second-color);
-    font-size: 1.5rem;
+    font-size: var(--header-height);
     cursor: pointer;
 }
 
