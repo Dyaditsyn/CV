@@ -364,6 +364,10 @@ border-radius: .5rem;
     justify-self: center;
 }
 
+.education__year{
+    margin-bottom: var(--mb-1);
+}
+
 /* ===== CONTACT =====*/
 .contact__input{
     width: 100%;
