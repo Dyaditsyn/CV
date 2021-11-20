@@ -12,7 +12,7 @@
     <title>Vyacheslav Dyaditsyn CV</title>
 </head>
 <body>
-    <!-- header -->
+    <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
@@ -45,8 +45,10 @@
                 <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Vyacheslav</span><br> 
                     Web Developer</h1>
                 <div class="home__buttons">
-                    <a href="#" class="button">Contact me</a>
-                    <a download="" href="#" class="button">Download CV</a>
+                    <a href="#contact" class="button">Contact me</a>
+                    <a download="" 
+                        href="https://github.com/Dyaditsyn/CV/raw/master/assets/pdf/Vyacheslav%20Dyaditsyn_Front-End.pdf"
+                        class="button">Download CV</a>
                 </div>
             </div>
 
@@ -69,7 +71,7 @@
 
             <div class="about__container bd-grid">
                 <div class="about__img">
-                    <img src="assets/img/photo.jpg" alt="">
+                    <img src="assets/img/photo.jpg" alt="Vyacheslav photo">
                 </div>
                 
                 <div>
@@ -166,18 +168,18 @@
                 </div>
                 
                 <div>              
-                    <img src="assets/img/work.jpg" alt="" class="skills__img">
+                    <img src="assets/img/work1.png" alt="Work on laptop" class="skills__img">
                 </div>
             </div>
         </section>
 
-        <!-- ===== EXPERIENCE ===== -->
+        <!-- =====WORK EXPERIENCE ===== -->
         <section class="experience section" id="experience">
             <h2 class="section-title">Work Experience</h2>
 
             <div class="experience__container bd-grid">
                 <div class="experience__img">
-                    <img src="assets/img/intel.jpg" alt="">
+                    <img src="assets/img/intel.jpg" alt="Intel processor">
                 </div>
                 
                 <div class="experience__content">
@@ -207,7 +209,7 @@
 
             <div class="education__container bd-grid">
                 <div class="education__img">
-                    <img src="assets/img/jce.png" alt="">
+                    <img src="assets/img/jce.png" alt="Azrieli Jerusalem Engineering College Logo">
                 </div>
                 
                 <div class="education__content">
@@ -225,7 +227,7 @@
                 <form action="" class="contact__form">
                     <input type="text" placeholder="Name" class="contact__input">
                     <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <textarea placeholder="Message" name="" id="" cols="0" rows="10" class="contact__input"></textarea>
                     <input type="button" value="Send" class="contact__button button">
                 </form>
             </div>
@@ -243,7 +245,9 @@
         <p>&#169; 2021 copyright all right reserved</p>
     </footer>
 
+    <!-- ===== SCROLL REVEAL ANIMATION ===== -->
     <script src="https://unpkg.com/scrollreveal"></script>
+    
     <script src="assets/js/main.js"></script>
 </body>
 </html>

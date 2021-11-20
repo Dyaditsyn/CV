@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 /*===== VARIABLES CSS =====*/
 :root{
     --header-height: 3rem;
@@ -12,7 +13,7 @@
     --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Font =====*/
 :root{
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 2rem;
@@ -27,7 +28,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margin =====*/
 :root{
     --mb-1: 0.5rem;
     --mb-2: 1rem;
@@ -37,7 +38,7 @@
     --mb-6: 3rem;
 }
 
-/*===== z index =====*/
+/*===== z-index =====*/
 :root{
     --z-back: -10;
     --z-normal: 1;
@@ -45,7 +46,7 @@
     --z-fixed: 100;
 }
 
-/*===== BASE =====*/
+/*===== GENERAL =====*/
 *,::before,::after{
     box-sizing: border-box;
 }
@@ -223,14 +224,12 @@ img{
     width: 295px;
     padding-left: 1rem;
 }
-
 .home__blob {
     width: 270px;
     height: 270px;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
     background: #4070F4;
 } 
-
 .home__me {
     position: relative;
     width:200px;
@@ -243,7 +242,6 @@ img{
     display: flex;
 }
 .button{
-    /* display: inline-block; */
     background-color: var(--first-color);
     color: #fff;
     padding: .5rem 1rem;
