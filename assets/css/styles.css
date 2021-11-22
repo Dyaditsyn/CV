@@ -229,6 +229,8 @@ img{
     height: 270px;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
     background: #4070F4;
+    -webkit-box-shadow: 10px 10px 35px 10px rgba(14,36,49,0.49); 
+    box-shadow: 10px 10px 35px 10px rgba(14,36,49,0.49);
 } 
 .home__me {
     position: relative;
@@ -246,13 +248,17 @@ img{
     color: #fff;
     padding: .5rem 1rem;
     font-weight: var(--font-semi);
+    border: 1px solid var(--first-color);
     border-radius: .5rem;
     margin-right: var(--mb-1);
   }
 .button:hover{
     box-shadow: 0 10px 36px rgba(0,0,0,.15);
+    background-color: #fff;
+    border: 1px solid var(--first-color);
+    color: var(--first-color);
 }
-  
+
 /* ===== ABOUT =====*/
 .about__container{
     row-gap: 2rem;
@@ -381,7 +387,7 @@ border-radius: .5rem;
 }
 .contact__button{
     display: block;
-    border: none;
+    border: 1px solid var(--first-color);
     outline: none;
     font-size: var(--normal-font-size);
     cursor: pointer;
